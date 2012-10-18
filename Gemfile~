@@ -7,11 +7,11 @@ gem 'rails', '3.2.8'
 
 gem 'pg'
 
-groupe :development do
+group :development do
  gem 'rspec-rails'
 end
 
-groupe :test do
+group :test do
  gem 'rspec-rails'
  gem 'webrat'
 end
